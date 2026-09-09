@@ -30,13 +30,13 @@ const phones = [
   },
   {
     name: "Смілянець С. В. - спеціаліст (м. Погребище)",
-    text: "+38 (067) 111 22 33",
-    link: "tel:+380671112233",
+    text: "+38 (097) 868 89 92",
+    link: "tel:+380978688992",
   },
   {
-    name: "Сива Л. А. - представник (м. Калинівка)",
-    text: "+38 (093) 555 44 22",
-    link: "tel:+380935554422",
+    name: "Сивак Л. А. - представник (м. Калинівка)",
+    text: "+38 (097) 525 90 35",
+    link: "tel:+380975259035",
   },
 ];
 
@@ -171,9 +171,9 @@ export default function Contact() {
 
             <div className="flex items-center gap-3 pt-8">
               {[
-                { icon: FaTelegramPlane, href: "https://t.me/USERNAME" },
-                { icon: FaViber, href: "viber://chat?number=%2B380972970916" },
-                { icon: FaWhatsapp, href: "https://wa.me/380972970916" },
+                { icon: FaTelegramPlane, href: "https://t.me/Yurchik_910" },
+                { icon: FaViber, href: "viber://chat?number=%2B380972960916" },
+                { icon: FaWhatsapp, href: "https://wa.me/380972960916" },
                 { icon: FaEnvelope, href: "mailto:zemwin@gmail.com" },
               ].map((item, index) => {
                 const Icon = item.icon;
